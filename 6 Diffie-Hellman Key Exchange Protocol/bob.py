@@ -19,7 +19,6 @@ def generate_shared_secret(received_public_value, private_key, p):
 p = 23
 g = 5
 
-# Bob's private key (random)
 bob_private_key = random.randint(1, p - 1)
 
 # Bob's socket to communicate with Alice
